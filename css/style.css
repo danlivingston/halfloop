@@ -1,0 +1,44 @@
+/* Do not overflow large images */
+img {
+    max-width: 100%;
+}
+
+code {
+    display: inline-block;
+    padding: 0 0.5em;
+    line-height: 1.4em;
+    border-radius: 3px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px 20px;
+    border-left: 5px solid #eee;
+    font-style: italic;
+}
+
+/* Navbar */
+img.nav-svg-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.mini-logo {
+    height: 22px;
+    padding-bottom: 5px;
+}
+
+/* Plugins */
+.plugin {
+    margin-top: 3rem;
+}
+
+.plugin-label {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.plugin ul {
+    list-style: none;
+    padding: 0 0 0 10px;
+}
