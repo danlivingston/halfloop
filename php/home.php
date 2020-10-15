@@ -34,7 +34,7 @@
     <?php if ($page->readMore()) : ?>
     <div class="text-right">
         <a class='btn' href="<?php echo $page->permalink(); ?>"><?php echo $L->get('Read more'); ?></a>
-    </div></div>
+    </div>
     <?php endif ?>
 
     <!-- Load Bludit Plugins: Page End -->
