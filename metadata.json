@@ -1,10 +1,10 @@
 {
-	"author": "anaggh",
-	"email": "",
-	"website": "https://themes.bludit.com",
-	"version": "1.1.3",
+	"author": "loopios7",
+	"email": "dan@loopsites.com",
+	"website": "https://loopsites.com",
+	"version": "0.0.1",
 	"releaseDate": "2021-03-16",
 	"license": "MIT",
 	"compatible": "3.13.1",
-	"notes": ""
+	"notes": "Fork from anaggh/halfmoon"
 }

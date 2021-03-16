@@ -1,3 +1,9 @@
+/* Halfloop changes */
+
+.text-muted {
+    display: none!important;
+}
+
 /* Do not overflow large images */
 img {
     max-width: 100%;
