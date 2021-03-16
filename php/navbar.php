@@ -13,7 +13,7 @@
     </a>
     <div class="navbar-content ml-auto">
         <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()">
-            <i class="fa fa-sun-o" aria-hidden="true"></i>
+            <i class="fas fa-moon" aria-hidden="true"></i>
             <span class="sr-only">Toggle dark mode</span>
         </button>
     </div>

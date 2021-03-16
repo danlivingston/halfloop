@@ -13,11 +13,17 @@
 
 <!-- Social Networks -->
 <?php foreach (Theme::socialNetworks() as $key => $label) : ?>
-    <a class="sidebar-link sidebar-link-with-icon" href="<?php echo $site->{$key}(); ?>" target="_blank">
-        <img class="nav-svg-icon sidebar-icon" src="<?php echo DOMAIN_THEME . 'img/' . $key . '.svg' ?>" alt="<?php echo $label ?>" />
-        <?php echo $label; ?>
+    <a class="sidebar-link" href="<?php echo $site->{$key}(); ?>" target="_blank">
+        <i class="fab fa-<?= $key ?>"></i> <?php echo $label; ?>
     </a>
 <?php endforeach; ?>
+
+<!-- RSS -->
+<?php if (Theme::rssUrl()) : ?>
+    <a class="sidebar-link" href="<?php echo Theme::rssUrl() ?>" target="_blank">
+        <i class="fas fa-rss"></i> RSS
+    </a>
+<?php endif; ?>
 
 <?php
 Theme::plugins('siteSidebar');
