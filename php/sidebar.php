@@ -1,4 +1,4 @@
-<div class="sidebar-menu">
+<div class="sidebar-menu mb-0">
     <h5 class="sidebar-title">Navigation</h5>
     <div class="sidebar-divider"></div>
 </div>
@@ -17,6 +17,9 @@
         <i class="fab fa-<?= $key ?>"></i> <?php echo $label; ?>
     </a>
 <?php endforeach; ?>
+<a class="sidebar-link" href="https://discord.com/invite/YWF8jp9snE" target="_blank">
+        <i class="fab fa-discord"></i> Discord
+    </a>
 
 <!-- RSS -->
 <?php if (Theme::rssUrl()) : ?>
